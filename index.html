@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Collaz congacture</title>
+        <script defer src="script.js"></script>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Here's a graphic reppresentation of Collaz conjecture</h1>
+            <form>
+                <div>
+                    <input
+                        id="conjectureSize"
+                        min="10"
+                        max="300000"
+                        type="number"
+                        name="num"
+                        value="200"
+                    />
+                    <label for="conjectureSize"
+                        >How big the cojeacture should be</label
+                    >
+                </div>
+                <div>
+                    <button>Go!</button>
+                </div>
+            </form>
+        </header>
+        <main>
+            <div class="canvas-cont">
+                <canvas>
+                    Your browser does not support the canvas, check for updates
+                </canvas>
+            </div>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+form {
+    margin: 2rem;
+}
+
+button {
+    margin: 0.5rem;
+}
+
+.canvas-cont > canvas {
+    background-color: black;
+}
